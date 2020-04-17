@@ -82,9 +82,9 @@ h3 {
   padding:10px 20px;
 }
 .frmInput{
-  width:100%;
+  width:50%;
   float:left;
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 .frmType{
   float:left;
@@ -134,6 +134,10 @@ h3 {
   color:#fff;
   cursor: pointer;
 }
+.floatRight{
+  float: left;
+  width: 100%;
+}
 .floatRight a{
   float:right;
   text-align: right;
@@ -142,5 +146,19 @@ h3 {
   font-size:14px;
   text-decoration: none;
 }
+.fullwidth{
+  float:left;
+  width:100%;
+}
+.fullwidth .frmType, .fullwidth .inputType{
+  width:100%;
+  float:left;
+  text-align: left;
+  margin-bottom:20px;
+}
+.fullwidth textarea{
+  width:100%;
+}
+
 
 

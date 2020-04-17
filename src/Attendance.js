@@ -56,6 +56,14 @@ function Attendance(props){
                   </div>
                 </div>
                 <div className="frmInput">
+                  <div className="frmType">
+                    Reporting Manger:
+                  </div>
+                   <div className="inputType">
+                    <span>Reporting Manger</span>
+                  </div>
+                </div>                
+                <div className="frmInput">
                    <div className="frmType">
                      Working from home :
                    </div>
@@ -83,7 +91,7 @@ function Attendance(props){
                     </div>
                   </div>
                </div>
-               <div className="frmInput">
+               <div className="frmInput fullwidth">
                    <div className="frmType">
                      Any other Issues :
                    </div>
@@ -93,7 +101,7 @@ function Attendance(props){
                     </div>
                   </div>
                </div>
-               <div className="frmInput">
+               <div className="frmInput fullwidth">
                    <div className="frmType">
                      Comments :
                    </div>

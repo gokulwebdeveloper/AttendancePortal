@@ -6,7 +6,7 @@ function Attendance(props){
  return(
       <>
         <div className="header">
-           <h1>Reatil Attendance Portal</h1>
+           <h1>Retail Attendance Portal</h1>
         </div>
         <div className="content">
               <h3> Welcome Username </h3>
